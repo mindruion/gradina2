@@ -1,4 +1,4 @@
-FROM docker pull jonasal/nginx-certbot
+FROM jonasal/nginx-certbot
 
 RUN rm /etc/nginx/conf.d/default.conf
 COPY . .
