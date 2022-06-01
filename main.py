@@ -9,9 +9,7 @@ app = FastAPI()
 updater = Updater("5335002137:AAE4xLCtIeean8hVOSsR32l3DGlZjaRKaOo", arbitrary_callback_data=True)
 
 origins = [
-    "http://localhost:63345/",
-    "http://localhost:63345",
-    "http://localhost:8080",
+    "https://api.gradina-viselor.md/",
 ]
 
 app.add_middleware(
