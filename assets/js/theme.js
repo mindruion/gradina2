@@ -48,7 +48,7 @@ function getFormData($form) {
             submitHandler: function (form) {
                 // sending value with ajax request
                 $.ajax({
-                  url: "http://api.gradina-viselor.md/send_email",
+                  url: "https://api.gradina-viselor.md/send_email",
                   type: "POST",
                   data: JSON.stringify(getFormData( $(form))),
                   contentType:"application/json",
