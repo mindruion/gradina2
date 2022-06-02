@@ -10,6 +10,7 @@ updater = Updater("5335002137:AAE4xLCtIeean8hVOSsR32l3DGlZjaRKaOo", arbitrary_ca
 
 origins = [
     "https://api.gradina-viselor.md/",
+    "https://gradina-viselor.md/",
 ]
 
 app.add_middleware(
