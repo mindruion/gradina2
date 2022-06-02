@@ -8,10 +8,7 @@ from pydantic import BaseModel
 app = FastAPI()
 updater = Updater("5335002137:AAE4xLCtIeean8hVOSsR32l3DGlZjaRKaOo", arbitrary_callback_data=True)
 
-origins = [
-    "https://api.gradina-viselor.md/",
-    "https://gradina-viselor.md/",
-]
+origins = ['*']
 
 app.add_middleware(
     CORSMiddleware,
