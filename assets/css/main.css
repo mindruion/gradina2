@@ -1797,7 +1797,7 @@
 :root {
   --thm-font: "Inter", sans-serif;
   --heading-font: "Inter", sans-serif;
-  --special-font: "Handlee", cursive;
+  --special-font: 'Henny Penny', cursive;
   --thm-color: #6e7673;
   --thm-color-rgb: 110, 118, 115;
   --thm-base: #49a760;
@@ -1821,6 +1821,7 @@ body {
   color: var(--thm-color);
   font-size: 16px;
   line-height: 2.125;
+
 }
 
 a,
